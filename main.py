@@ -352,7 +352,10 @@ if __name__ == "__main__":
                     speak.say("OK then! nice talking to you, Good Bye!")
                     speak.runAndWait()
                     break
-            
+                elif "who" in text and "you" in text:
+                    speak.say("I am Tarra, your personal voice assistant!")
+                    speak.runAndWait()
+                        
                 elif "wait" in text:
                     wait(text)
                 
