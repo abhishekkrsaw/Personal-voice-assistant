@@ -355,7 +355,9 @@ if __name__ == "__main__":
                 elif "who" in text and "you" in text:
                     speak.say("I am Tarra, your personal voice assistant!")
                     speak.runAndWait()
-                        
+                elif "what" in text and "you" in text and "do" in text:
+                    speak.say("""I can open an app for you, can search anything on google, youtube or wikipedia for you, can set a reminder for you.
+                              Moreover, I can also tell you some jokes if you want. Now""")                         
                 elif "wait" in text:
                     wait(text)
                 
