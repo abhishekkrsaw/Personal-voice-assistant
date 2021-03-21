@@ -102,11 +102,6 @@ def play_(text):
             del play[b]        
     webbrowser.open("https://www.youtube.com/results?search_query=" + '+'.join(play))
 
-def remind_input():
-    details=[]
-        
-    return details
-
 def month_val(month):
     month=month.lower()
     month=month.split()
